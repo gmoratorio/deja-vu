@@ -1,0 +1,45 @@
+.brand-image{
+  margin: auto;
+  max-height: 100%;
+}
+
+.info-card{
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:auto;
+}
+
+
+.card-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nameinput {
+  margin-bottom: 1em;
+}
+
+.caption-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.has-error {
+  border: 1px solid red;
+}
+
+.error {
+    color: red;
+}
+
+img.checkmark-size{
+  height: 20vh;
+  max-height: 100%;
+}

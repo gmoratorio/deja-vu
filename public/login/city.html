@@ -1,0 +1,21 @@
+<div class="row">
+    <!-- <div class="col-sm-6 col-md-4"> -->
+    <div class="thumbnail info-card">
+        <!-- <img src="http://images1.ocweekly.com/imager/u/blog/6580504/punkrockbowlingfirst.jpg"> -->
+        <div class="caption text-center caption-container">
+            <h3>Please Enter Your City</h3>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <form class="" novalidate name="cityForm" action="index.html" method="post">
+                        <input required ng-minlength="2" ng-model="$ctrl.city" ng-class="{'has-error' : cityForm.city.$invalid && cityForm.city.$touched}" type="text" id="city" class="form-control" name="city" value="">
+                        <p ng-show="cityForm.city.$invalid && cityForm.city.$touched" class="error">Please enter a valid city</p>
+                    </form>
+                </div>
+            </div>
+            <p><a ng-show="cityForm.$valid" ng-click="$ctrl.citySubmit()" class="btn btn-primary" role="button">Continue</a></p>
+        </div>
+    </div>
+    <!-- </div> -->
+
+
+</div>
